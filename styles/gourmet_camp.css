@@ -1,0 +1,343 @@
+main,footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: "游ゴシック";
+}
+/*--<ヘッダー>--*/
+header {
+    background-image: url(../images/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    min-width: 1200px;
+}
+.header_content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo {
+    margin-left: 40px;
+}
+.header_menu_line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.header_navi {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-left: auto;
+}
+.header_navi p {
+    margin-right: 30px;
+}
+.top_title {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+form span {
+    font-weight: bold;
+}
+.input {
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    text-align: left;
+}
+.search {
+    color: white;
+    background-color: red;
+    background-image: url(../images/icon07.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px black;
+}
+
+/*--<メイン>--*/
+main {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    /*margin-left: 40px;
+    margin-right: 40px;*/
+    padding-left: 40px;
+    padding-right: 40px;
+}
+article {
+    width: 800px;
+}
+
+.main_content {
+    display: flex;
+}
+.content {
+    width: 100%;
+}
+.icon_title {
+    border-bottom: solid 1px red;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*--<おすすめのエリア>--*/
+.area_list {
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 20px;
+}
+.area_list a {
+    border :solid 1px #80808052;
+    display:inline-block;
+    width: 4em;
+    text-align:center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size : 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*--<ホットなスポット>--*/
+.mark {
+    color: orange;
+}
+.spot {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction:column;
+    height: 67px;
+}
+.spot a {
+    font-size: 12px;
+}
+
+/*--<ジャンルで選ぶ>--*/
+.genre img {
+    border:  solid 1px #80808052;
+}
+.genre_list figure {
+    border: solid 1px #80808052;
+    margin-bottom: 30px;
+}
+.genre_list figcaption {
+    text-align: center;
+}
+.genre {
+    display: flex;
+    justify-content: space-between;
+}
+.genre_list {
+    margin-top: 10px;
+}
+
+/*--<こだわりで選ぶ>--*/
+.commitment {
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+.commitment a {
+    font-size: 12px;
+    border: solid 1px #80808052;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*--<ライターのおすすめ>--*/
+.recommend {
+    display: flex;
+    gap:20px;
+}
+.recommend figure {
+    text-align: center;
+}
+.recommend figcaption {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recommend p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+.recommend div {
+    width: 370px;
+    border:solid 1px #80808052;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*--<ユーザーレビュー>--*/
+.review_name {
+    font-weight: bold;
+    background-image: url(../images/icon09.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #80808052;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.review_name span {
+    font-size: 10px;
+    font-weight: normal;
+}
+.review {
+    display: table;
+    
+}
+.review_1 {
+    display:inline-block;
+    width: 370px;
+    border:solid 1px #80808052;
+    margin-right : 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.review_2 {
+    display: inline-block;
+    width: 370px;
+    border: solid 1px #80808052;
+}
+.review_title {
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.review_contents {
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 10px 10px 10px;
+}
+.review figure {
+    display:flex;
+}
+.review_img_1 {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    flex:1;
+}
+.review_img_2 {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex:1;
+}
+/*--<右サイドバー>--*/
+.point_rank {
+    width: 270px;
+    border: solid 20px beige;
+    padding: 10px;
+}
+.user_name {
+    font-weight: bold;
+    background-image: url(../images/icon09.png);
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #80808052;
+}
+.user_name span {
+    font-size: 10px;
+    font-weight: normal;
+}
+.point_rank_row {
+    display: flex;
+    font-size: 12px;
+    border-bottom: solid 1px #80808052;
+    align-items:center;
+}
+.point_rank_row:last-child {
+    border-bottom: none;
+}
+.key{
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.value{
+    margin-left: auto;
+}
+.icon_point{
+    background-image: url(../images/icon10.png);
+}
+.icon-rank{
+    background-image: url(../images/icon11.png);
+}
+
+.point_content {
+    word-spacing: 100px;
+}
+.rank_content {
+    word-spacing: 85px;
+}
+
+aside {
+    margin-left: 50px;
+}
+.banner_1 {
+    margin-top: 20px;
+}
+.banner_2 {
+    margin-top: 20px;
+}
+
+/*--<フッター>--*/
+.footer_navi {
+    display: flex;
+    justify-content: center;
+    border-top: solid 2px #80808033;
+    margin-top: 20px;
+}
+.footer_navi p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.copyright {
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #dcd5d5;
+}
